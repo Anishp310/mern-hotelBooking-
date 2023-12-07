@@ -1,0 +1,53 @@
+.Registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Registration h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Registration form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+.Registration label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.Registration input[type="text"],
+.Registration input[type="email"],
+.Registration input[type="number"],
+.Registration input[type="password"],
+.Registration input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Registration button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Registration button[type="submit"]:hover {
+  background-color: #45a049;
+}
